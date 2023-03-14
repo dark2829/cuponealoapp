@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9ce52d89-e0ad-4d3e-9e98-31c5f896031e"
+      }
+    },
+    "owner": "alejandrotoscuento"
   }
 }
