@@ -1,23 +1,6 @@
 import React from 'react';
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Alert, TouchableNativeFeedback } from 'react-native';
+import HomePage from './src/HomePage/component/HomePage';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <TouchableNativeFeedback onPress={() => Alert.alert("Tocaste el texto")}>
-        <Text>Hola mundo</Text>
-      </TouchableNativeFeedback>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <HomePage/>
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
